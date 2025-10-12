@@ -4,8 +4,7 @@
 <img width="740" height="669" alt="Screenshot 2025-10-12 at 15 37 11" src="https://github.com/user-attachments/assets/1f26987c-4ce5-4e5a-b8ab-bbb6b74e69f4" />
 
 **Figure 1.** Visualization of isolated sample regions showing (A) grey-scale intensity, 
-(B) CCP ground-truth physical realizability (PR) mask, and (C) machine-learning–predicted PR mask. The predicted PR mask closely reproduces the CCP-derived reference, 
-demonstrating accurate spatial mapping of physically realizable polarization states from partial Mueller matrix inputs.
+(B) Ground-truth physical realizability (PR) mask, and (C) machine-learning–predicted PR mask.
 
 This repository provides MATLAB scripts to generate Physical Realizability (PR) masks
 from Mueller Matrix data using a pre-trained ONNX MLP model (or XGBoost model).
