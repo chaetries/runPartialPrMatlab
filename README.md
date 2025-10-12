@@ -1,6 +1,6 @@
 
 # Partial (3x4) MM Physical Realizability Mask (MATLAB)
-====================================
+----
 <img width="740" height="669" alt="Screenshot 2025-10-12 at 15 37 11" src="https://github.com/user-attachments/assets/1f26987c-4ce5-4e5a-b8ab-bbb6b74e69f4" />
 
 **Figure 1.** Visualization of isolated sample regions showing (A) grey-scale intensity, 
