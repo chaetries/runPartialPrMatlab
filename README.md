@@ -53,8 +53,8 @@ The input .mat file must contain one of the following:
 
 ## Output:
 After running PRMask_FromONNX_MLP.m, the same .mat file will include:
-  pr_mask               : [H, W] or [N, 1] logical mask
-  pr_mask_model         : model file used (.onnx)
+  * pr_mask               : [H, W] or [N, 1] logical mask
+  * pr_mask_model         : model file used (.onnx)
 
 Running the Code:
 -----------------
