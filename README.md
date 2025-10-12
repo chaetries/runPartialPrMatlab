@@ -61,7 +61,7 @@ Running the Code:
 1. Ensure model/pixel_mlp.onnx and run_mlp.m  are in your MATLAB path.
 2. Make sure your input .mat file (e.g., sample/PPRIM.mat) contains nM or X_flat.
 3. Run:
-       >> PRMask_FromONNX_MLP
+       >> run_mlp.m
 4. The generated mask will be saved back to the same file.
 
 ## Citation
