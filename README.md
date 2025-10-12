@@ -30,15 +30,17 @@ The model was trained using mixed-tissue datasets:
 
 ## Repository Structure:
 
-model/
-  pixel_mlp.onnx              - Pre-trained ONNX MLP model
-  MLPFunction.m               - Auto-generated MATLAB ONNX function
-
-sample/
-  PPRIM.mat                   - Example partial Mueller Matrix data (3x4)
-
-run_mlp.m                     - Main MATLAB script for PR mask generation
-README.md                     - This file
+```
+├── model/
+│   ├── pixel_mlp.onnx          # Pre-trained ONNX MLP model
+│   └── MLPFunction.m           # Auto-generated MATLAB ONNX function (created on first run)
+│
+├── sample/
+│   └── PPRIM.mat               # Example partial Mueller Matrix data (3×4)
+│
+├── run_mlp.m                   # Main MATLAB script for PR mask generation
+├── README.md                   # Project documentation
+```
 
 ---
 
