@@ -46,8 +46,8 @@ The model was trained using mixed-tissue datasets:
 
 ## Input Data Format:
 The input .mat file must contain one of the following:
-  nM      : [H, W, 12]  - normalized partial Mueller matrix
-  X_flat  : [N, 12]     - flattened Mueller matrix pixels
+  * nM      : [H, W, 12]  - normalized partial Mueller matrix OR
+  * X_flat  : [N, 12]     - flattened Mueller matrix pixels
 
 ---
 
